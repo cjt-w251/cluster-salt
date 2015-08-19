@@ -1,4 +1,6 @@
 base:
+  '*':
+    - nodes
   'E@node(1|2|3)':
     - accounts.ji
   'E@node(4|5|6)':
