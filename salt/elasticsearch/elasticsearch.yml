@@ -140,6 +140,7 @@ node.rack: {{ pillar['rack'] }}
 # Use the Index Status API (<http://localhost:9200/A/_status>) to inspect
 # the index status.
 
+index.load_fixed_bitset_filters_eagerly = false
 
 #################################### Paths ####################################
 
