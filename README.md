@@ -1,7 +1,7 @@
 # cluster-salt
 salt scripts for cluster setup ( including Spark, Yarn, HDFS, ElasticSearch, Kibana )
 
-# Bootstrap
+# bootstrap
 
 ```bash
 curl -o /tmp/install_salt.sh -L https://bootstrap.saltstack.com && sh /tmp/install_salt.sh -Z -M git v2015.5.3
